@@ -1,0 +1,8 @@
+<h1>Welcome to {{hotelName}} room with number {{roomNumber}} is {{available ?
+    "available" : "not availabe"}}</h1>
+
+<div [hidden]="hideRooms">
+    Room Available
+</div>
+
+<button (click)="toggle()">Toggle</button>
