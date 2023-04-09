@@ -23,6 +23,7 @@ export class RoomsComponent {
       photos: "https://placehold.co/600x400",
       checkInDate: new Date("11-nov-2021"),
       checkOutDate: new Date("11-nov-2021"),
+      rating : 4.5
     },
     {
       roomNumber: 2,
@@ -32,6 +33,8 @@ export class RoomsComponent {
       photos: "https://placehold.co/600x400",
       checkInDate: new Date("11-nov-2021"),
       checkOutDate: new Date("11-nov-2021"),
+      rating : 4.95554
+
     },
     {
       roomNumber: 3,
@@ -41,6 +44,7 @@ export class RoomsComponent {
       price: 2030,
       photos: "https://placehold.co/600x400",
       checkInDate: new Date("11-nov-2021"),
+      rating : 4.3,
       checkOutDate: new Date("11-nov-2021"),
     }
   ];
